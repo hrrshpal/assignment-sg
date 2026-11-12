@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Prata&family=Zeyada&display=swap');
+
+
+
+.agrave-pro-heading {
+  font-family: "Agrave Pro", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.zeyada-regular {
+  font-family: "Zeyada", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.montserrat-heading {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}

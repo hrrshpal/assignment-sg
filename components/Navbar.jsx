@@ -2,10 +2,10 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='flex justify-between bg-black text-white'>
         
-        <div>
-            <p>W.</p>
+        <div className='flex gap-4'>
+            <p className='text-5xl font-[.montserrat-heading] text-[#005B6B]'>W<span className='text-white'>.</span></p>
             <span>Workmaxxxing</span>
         </div>
 
