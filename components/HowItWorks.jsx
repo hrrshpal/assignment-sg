@@ -47,7 +47,7 @@ const HowItWorks = () => {
               </div>
 
               {/* Step Content */}
-              <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#A3E635]/40 hover:bg-white/[0.07] sm:p-7">
+              <div className="rounded-2xl border border-white/10 bg-white/4 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#A3E635]/40 hover:bg-white/[0.07] sm:p-7">
 
                 <h3 className="mb-5 text-xl font-bold leading-snug sm:text-2xl">
                   {step.title}

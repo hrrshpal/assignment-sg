@@ -20,7 +20,7 @@ const Features = () => {
           </p>
         </div>
 
-        {/* Feature Cards */}
+        {/* Cards */}
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:gap-8">
           {features.map((feature) => (
             <div
@@ -44,7 +44,7 @@ const Features = () => {
                 {feature.title}
               </h3>
 
-              {/* Feature Details */}
+              {/* Details */}
               <div className="space-y-6">
 
                 {feature.items.map((item) => (
@@ -60,18 +60,13 @@ const Features = () => {
 
                   </div>
                 ))}
-
               </div>
-
             </div>
           ))}
-
         </div>
-
       </div>
-
     </section>
   )
 }
 
-export default Features
+export default Features;
