@@ -1,5 +1,5 @@
-
 import React from 'react'
+import {imageUrl} from "../src/assets/workmaxxing.jpg"
 
 const Hero = () => {
   return (
@@ -44,7 +44,7 @@ const Hero = () => {
         <div className="relative mx-auto w-full max-w-2xl">
           <div className="absolute inset-0 rounded-3xl bg-[#A3E635]/10 blur-3xl"></div>
           <img
-            src="/src/assets/workmaxxing.jpg"
+            src={imageUrl}
             alt="Workmaxxing productivity dashboard preview"
             className="relative w-full rounded-2xl border border-white/10 object-cover shadow-2xl shadow-black/40 transition-transform duration-500 hover:scale-[1.02]"
           />
